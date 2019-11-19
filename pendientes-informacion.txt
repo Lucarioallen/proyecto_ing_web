@@ -1,0 +1,16 @@
+############### To Do ##########################
+
+1. Verificar el github pro con el correo de la institución
+
+
+
+############### Recursos ###################
+https://fonts.adobe.com/fonts (fuentes de letras)
+https://fonts.google.com/ (fuentes de letras)
+https://paletton.com/ (paleta de colores)
+https://fontawesome.com/ (iconos,imagenes,etc)
+https://www.flaticon.es/ (iconos,imagenes,etc)
+https://getbootstrap.com/
+http://fontello.com/ (iconos,imagenes,etc)
+https://icon-icons.com/es/ (iconos,imagenes,etc)
+
