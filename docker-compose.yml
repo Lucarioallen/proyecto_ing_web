@@ -1,0 +1,24 @@
+version: '2'
+services:
+  mysql:
+        image: mysql:8.0
+        container_name: mysql-server-80
+        command: --default-authentication-plugin=mysql_native_password
+        volumes:
+          - ./MySQL:/var/lib/mysql
+        restart: unless-stopped
+        environment:
+          - MYSQL_ROOT_PASSWORD=clave123
+          - MYSQL_DATABASE=mi_db
+        ports:
+          - "8087:3306"
+  website:
+    container_name: php73
+    build:
+      context: ./
+    volumes:
+      - ./app:/var/www/html
+    ports:
+      - 8007:80
+    depends_on:
+      - mysql
