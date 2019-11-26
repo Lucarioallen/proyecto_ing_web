@@ -1,7 +1,7 @@
 <?php
 
 
-class HomeController
+class PrincipalHomeController
 {
     function __construct()
     {
@@ -10,6 +10,6 @@ class HomeController
 
     function index()
     {
-        require_once('Views/Home/index.php');
+        require_once('Views/PrincipalHome/index.php');
     }
 }
