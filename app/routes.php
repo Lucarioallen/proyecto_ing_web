@@ -28,7 +28,7 @@ function call($controller, $action)
             $controller = new PrincipalHomeController();
             break;
         case 'MainSecretariaAdministrativa':
-            $controller = new MSAdmninistrativaController();
+            $controller = new MSAdministrativaController();
             break;
         case 'SecretariaAdministrativa':
             $controller = new SecretariaAdministrativaController();
