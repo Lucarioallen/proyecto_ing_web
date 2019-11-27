@@ -2,9 +2,9 @@
 /**
 * 
 */
-require_once('Models/MSAdministrativaModel.php');
+require_once('Models/SecretariaAdministrativaModel.php');
 
-class MSAdministrativaController
+class SecretariaAdministrativaController
 {
 
 	function __construct()
@@ -13,9 +13,9 @@ class MSAdministrativaController
 	}
 
 	function index(){
-		$msadministrativa = new MSAdministrativaModel();
-		$datos = $msadministrativa->listar();
-		require_once('Views/MainSecretariaAdministrativa/IndexSAP.php');
+		$secretariaadministrativa = new SecretariaAdministrativaModel();
+		$datos = $secretariaadministrativa->listar();
+		require_once('Views/SecretariaAdministrativa/IndexSA.php');
 	}
 
 }
