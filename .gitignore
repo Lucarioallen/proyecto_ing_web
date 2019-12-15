@@ -21,3 +21,5 @@ MySQL/ibdata1
 MySQL/mysql.ibd
 MySQL/undo_001
 MySQL/undo_002
+
+MySQL/binlog.*
