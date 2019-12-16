@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario</title>
+
+    <!-- CSS de Bootstrap -->
+    <link href="../../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="../../resources/css/form_mantenimiento.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+  <div class="container">
+<div class="py-5 text-center">
+  <img class="d-block mx-auto mb-4" src="../../resources/images/utp.jpg" alt="" width="72" height="72">
+  <h2>Solicitud de Mantenimiento General</h2>
+  <h3>Equipo de Mantenimiento</h3>
+  <p class="lead">Este es el formulario de solicitud de mantenimiento para la revisión y confirmación del equipo de mantenimiento.</p>
+</div>
+
+<h4 class="mb-3">Datos Personales</h4>
+<div class="row">
+  <div class="col-md-4">
+    <input type="text" class="form-control" placeholder="Nombre">
+  </div>
+  <div class="col-md-4">
+    <input type="text" class="form-control" placeholder="Cedula">
+  </div>
+</div>
+<br/>
+<h4 class="mb-3">Tipo de Daño</h4>
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm">
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Infraestructura
+  </label>
+</div>
+</div>
+
+<div class="col-sm">
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Electricidad
+  </label>
+    </div>
+    </div>
+
+    <div class="col-sm">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+      <label class="form-check-label" for="defaultCheck1">
+        Instalaciones Sanitarias
+      </label>
+        </div>
+        </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          Aire Acondicionado
+        </label>
+          </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                Equipos Tecnologicos
+              </label>
+                </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Otros
+                    </label>
+                      </div>
+                      </div>
+                </div>
+             </div>
+<br/>
+<h4 class="mb-3">Descripción del Problema</h4>
+<div class="container">
+    <div class="form-group">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+<br/>
+  <h4 class="mb-3">Ubicación</h4>
+  <div class="container">
+    <div class="form-group">
+      <select id="inputState" class="form-control">
+        <option selected>Edificio</option>
+        <option>Edificio 1</option>
+        <option>Edificio 3</option>
+        <option>Postgrado</option>
+        <option>Edificio Administrativo</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <select id="inputState" class="form-control">
+        <option selected>Planta</option>
+        <option>Planta Baja</option>
+        <option>Piso 1</option>
+        <option>Piso 2</option>
+        <option>Piso 3</option>
+      </select>
+    </div>
+
+    <div class="col-sm">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          Salon de Clase
+        </label>
+          </div>
+          </div>
+
+          <div class="col-sm">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                Laboratorio
+              </label>
+                </div>
+                </div>
+
+                <div class="col-sm">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Area
+                    </label>
+                      </div>
+                      </div>
+                      <br/>
+                    <div class="form-group col-sm-4">
+                        <select id="inputState" class="form-control">
+                          <option selected>Salon/Laboratorio/Area</option>
+                          <option>3-231</option>
+                          <option>3-212</option>
+                          <option>3-213</option>
+                          <option>3-123</option>
+                        </select>
+                      </div>
+  </div>
+  <br/>
+  <br/>
+  <h4 class="mb-3">Pre-elaboración</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <input type="text" class="form-control" placeholder="Técnico Asignado 1">
+      </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control" placeholder="Técnico Asignado 2">
+      </div>
+    </div>
+
+  <br/>
+    <div class="row">
+      <div class="col-md-6">
+        <label for="formGroupExampleInput">Inspección efectuada por:</label>
+        <input type="text" class="form-control" placeholder="Nombre">
+      </div>
+    </div>
+<br/>
+    <div class="row">
+      <div class="col-md-6">
+        <label for="formGroupExampleInput">Fecha de Inspección</label>
+        <input type="date" class="form-control" id="date">
+      </div>
+    </div>
+  </div>
+  <br/>
+  <br/>
+  <h4 class="mb-3">Materiales</h4>
+
+
+      <!-- Librería jQuery requerida por los plugins de JavaScript -->
+      <script src="http://code.jquery.com/jquery.js"></script>
+
+      <!-- Todos los plugins JavaScript de Bootstrap -->
+      <script src="../../bootstrap/js/bootstrap.min.js"></script>
+    </body>
+  </html>
